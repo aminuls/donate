@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    font-family: 'Finlandica', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    padding: 15px 30px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #ebe4e4;
+    background-image: linear-gradient(45deg, #0000ff, rgb(13, 189, 212) );
+    border-radius: 40px;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.top-banner{
+    background: url('images/donation13.jpg') no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    height: 320px;
+    width: 826px;
+    text-align: center;
+    color: white;
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-text p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
