@@ -26,6 +26,10 @@ a{
     font-size: 20px;
     font-weight: 600;
 }
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 .top-banner{
     background: url('images/donation13.jpg') no-repeat;
     background-size: cover;
@@ -40,14 +44,61 @@ a{
     height: 320px;
     width: 826px;
     text-align: center;
-    color: white;
 }
 .banner-text h1{
     font-weight: 700;
     font-size: 65px;
+    color: whitesmoke;
 }
 .banner-text p{
     margin-top: 20px;
     font-weight: 300;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.sec-two{
+    background-image: none;
+}
+.sec-two-text h1{
+    color: #121212;
+}
+.sec-two-text p{
+    color: #707070;
+}
+.sec-two-ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 123px;
+    width: 765px;
+    justify-content: space-between;
+    text-align: center center;
+    margin: 50px 0px 0px 25px;
+}
+.sec-two-ul ul{
+    text-decoration: none;
+    height: 123px;
+    width: 135px;
+    line-height: 123px;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Finlandica', sans-serif;
+}
+.sec-two-ul :nth-child(2){
+    color: #23d8f0;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #23d8f03f;
+}
+.input{
+    margin-top: 50px;
+    height: 50px;
+    width: 765px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 40%);
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
