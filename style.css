@@ -31,14 +31,16 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
   margin: 0;
 }
 .top-banner{
-    background: url('images/donation13.jpg') no-repeat;
-    background-size: cover;
-    object-fit: fill;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.sec-one{
+    background: url('images/donation13.jpg') no-repeat;
+    background-size: cover;
+    object-fit: fill;
 }
 .banner-text{
     height: 320px;
@@ -55,9 +57,6 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     font-weight: 300;
     font-size: 18px;
     color: whitesmoke;
-}
-.sec-two{
-    background-image: none;
 }
 .sec-two-text h1{
     color: #121212;
