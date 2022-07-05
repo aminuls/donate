@@ -36,6 +36,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .sec-one{
     background: url('images/donation13.jpg') no-repeat;
@@ -58,12 +59,14 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     font-size: 18px;
     color: whitesmoke;
 }
-.sec-two-text h1{
+.sec-two-text h1, .sec-three-text h1{
     color: #121212;
-    margin-top: -100px;
+    margin-top: -70px;
+    font-size: 45px;
 }
-.sec-two-text p{
+.sec-two-text p, .sec-three-text p{
     color: #707070;
+    font-weight: 400;
 }
 .sec-two-ul{
     display: flex;
@@ -71,7 +74,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     height: 123px;
     width: 765px;
     justify-content: space-between;
-    text-align: center center;
+    text-align: center;
     margin: 50px 0px 0px 25px;
 }
 .sec-two-ul ul{
@@ -101,4 +104,40 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+}
+.sec-three-box{
+    width: 1128px;
+    height: 352px;
+    margin-top: -400px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-three-small-outbox{
+    height: 352px;
+    width: 360px;
+    background-color: rgb(79, 157, 166, .2);
+    border-radius: 10px;
+}
+.sec-three-small-box{
+    margin: 22px;
+    height: 308px;
+    width: 316px;
+   
+
+}
+.sec-three-small-box span{
+    font-size: 80px;
+    margin-left: -5px;
+}
+.sec-three-small-box h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Finlandica', sans-serif;
+    margin: 20px 0px;
+}
+.small-bg-two{
+    background-color: rgb(255, 87, 87, .2);
+}
+.small-bg-three{
+    background-color: rgb(0, 0, 255, .2);
 }
