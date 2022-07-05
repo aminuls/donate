@@ -61,6 +61,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 .sec-two-text h1{
     color: #121212;
+    margin-top: -100px;
 }
 .sec-two-text p{
     color: #707070;
