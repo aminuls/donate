@@ -110,7 +110,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     margin-top: 40px;
 }
 .sec-three-box{
-    width: 1128px;
+    width: 1124px;
     height: 352px;
     margin-top: -400px;
     display: flex;
@@ -126,9 +126,40 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     margin: 22px;
     height: 308px;
     width: 316px;
-   
-
 }
+.extra h1{
+    color: #121212;
+    margin-top: -10px;
+    font-size: 45px;
+}
+.extra-box{
+    height: 400px;
+    width: 884px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.extra-small-outbox{
+    width: 280px;
+    height: 200px;
+    background-color: transparent;
+}
+.extra-small-box{
+    margin: 22px;
+}
+.extra-small-box, .extra-small-box p{
+    height: 156px;
+    width: 236px;
+}
+.extra-in{
+    display: flex;
+}
+.extra-in img{
+    height: 50px;
+    width: 50px;
+    object-fit: fill;
+    margin: 10px 0px 0px -10px;
+}
+
 .sec-three-small-box span{
     font-size: 80px;
     margin-left: -5px;
