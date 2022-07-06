@@ -134,12 +134,12 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 .extra-box{
     height: 400px;
-    width: 884px;
+    width: 896px;
     display: flex;
     flex-wrap: wrap;
 }
 .extra-small-outbox{
-    width: 280px;
+    width: 284px;
     height: 200px;
     background-color: transparent;
 }
@@ -148,7 +148,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 .extra-small-box, .extra-small-box p{
     height: 156px;
-    width: 236px;
+    width: 240px;
 }
 .extra-in{
     display: flex;
